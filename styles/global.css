@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: auto;
+}
+
+:root {
+  --principal-red: #E3646E;
+  --principal-purple: #BB72E9;
+  --principal-blue: #3996DB;
+  --principal-green: #82BC4F;
+  --principal-yellow: #EABD5F;
+
+  --principal-gray100: #0D0E11;
+  --principal-gray200: #16181D;
+  --principal-gray300: #292C34;
+  --principal-gray400: #878EA1;
+  --principal-gray500: #C0C4CE;
+  --principal-gray600: #E2E4E9;
+
+  --font-asap: 'Asap', sans-serif;
+  --font-inconsolata: 'Inconsolata', monospace;
+  --font-maven-pro: 'Maven Pro', sans-serif;
+  
+  --title-lg: 700 5.6rem/120% var(--font-asap);
+  --title-md: 700 2.4rem/120% var(--font-asap);
+  --title-sm: 700 1.6rem/120% var(--font-asap);
+  --subtitle: 400 2rem/120% var(--font-inconsolata);
+  --text-md: 400 1.6rem/140% var(--font-maven-pro);
+  --text-sm: 400 1.4rem/140% var(--font-maven-pro);
+}
