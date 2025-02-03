@@ -1,0 +1,37 @@
+#services {
+  padding:  9rem 12rem 12rem;
+  background-color: var(--principal-gray100);
+  justify-content: center;
+  
+  header {
+    margin-bottom: 12px;
+  }
+
+  .cards {
+    margin-inline: 12rem;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .card {
+    border: 2px solid var(--principal-gray200);
+    border-radius: 12px;
+    padding: 2rem;
+    width: 350px;
+    height: 200px;
+    flex: 1 1 calc(2 2 2);
+    margin: px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  p {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    text-align: left;
+    font-size: 18px;
+  }
+}
+
