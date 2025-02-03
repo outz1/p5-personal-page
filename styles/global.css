@@ -1,9 +1,13 @@
 * {
   padding: 0;
   margin: auto;
+  box-sizing: border-box;
 }
 
 :root {
+  font-size: 62.5%;
+
+
   --principal-red: #E3646E;
   --principal-purple: #BB72E9;
   --principal-blue: #3996DB;
@@ -27,4 +31,38 @@
   --subtitle: 400 2rem/120% var(--font-inconsolata);
   --text-md: 400 1.6rem/140% var(--font-maven-pro);
   --text-sm: 400 1.4rem/140% var(--font-maven-pro);
+}
+
+body {
+  width: 100%;
+  background-color: var(--principal-gray200);
+  color: var(--principal-gray500);
+}
+
+h1 {
+  font: var(--title-lg);
+  color: var(--principal-gray600);
+  text-align: center;
+}
+
+h2 {
+  font: var(--title-md);
+  color: var(--principal-gray600);
+  text-align: center;
+}
+
+h3 {
+  font: var(--title-sm);
+  color: var(--principal-gray600);
+}
+
+h4 {
+  font: var(--subtitle);
+  text-align: center;
+
+}
+
+
+span {
+  color: var(--principal-red);
 }

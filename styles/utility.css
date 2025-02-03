@@ -1,0 +1,42 @@
+.grid {
+  display: grid;
+}
+.grid-flow-col {
+  display: grid;
+  grid-auto-flow: column;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col-20 {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.gap-16 {
+  gap: 1.6rem;
+}
+
+.gap-24 {
+  gap: 2.4rem;
+}
+
+.gap-56 {
+  gap: 5.6rem;
+}
+.inherit {
+  display: inherit;
+  gap: inherit;
+  width: inherit;
+  align-items: inherit;
+  color: inherit;
+  text-decoration: none;
+}
+.text-sm {
+  font: var(--text-sm);
+}
+.text-md {
+  font: var(--text-md);
+}

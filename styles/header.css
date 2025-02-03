@@ -1,0 +1,87 @@
+#info {
+  background-image: url('../assets/Background_Intro.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  max-width: 100%;
+  background-size: cover;
+  padding: 12rem 18.3rem 16rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  padding: 0 18rem 12rem;
+}
+
+.perfil {
+  position: relative;
+  margin: 0 auto 5.6rem;
+  width: 11rem 11rem;
+  
+}
+
+.perfil::before {
+  content: '';
+  width: 6rem;
+  height: 6rem;
+  position: absolute;
+  background-image: url('../assets/icons 2/Code.png');
+  
+  background-repeat: no-repeat;
+  right: 0%;
+  top: 80%;;
+}
+
+.foto {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 3px solid var(--principal-red);
+  max-width: 68rem;
+  object-fit: contain;
+}
+
+h1 {
+  margin-bottom: 2rem;
+}
+
+p {
+  color: var(--gray-400);
+  margin: auto;
+  text-align: center;
+  max-width: 68rem;
+
+  font: var(--text-md)
+}
+
+.tags {
+  margin: 0 auto 9.4rem;
+  ul li {
+    display: flex;
+    gap: 1.2rem;
+    align-items: center;
+  
+    background-color: var(--principal-gray300);
+    border-radius: 99.9rem;
+    padding: 20px 35px;
+    font: var(--text-md);
+    color: var(--principal-gray500);
+  }
+
+}
+
+
+#scroll {
+  z-index: 1;
+  margin: auto;
+  background-color: transparent;
+  border: none;
+}
+#scroll:active {
+  animation: active paused 1s ease-in;
+}
