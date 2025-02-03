@@ -10,6 +10,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  transition: 1s;
 }
 
 header {
@@ -81,6 +82,7 @@ p {
   margin: auto;
   background-color: transparent;
   border: none;
+  
 }
 #scroll:active {
   animation: active paused 1s ease-in;

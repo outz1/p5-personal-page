@@ -66,3 +66,7 @@ h4 {
 span {
   color: var(--principal-red);
 }
+
+html {
+  scroll-behavior: smooth; /* Faz a rolagem ser suave */
+}
