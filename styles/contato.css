@@ -19,8 +19,11 @@
   }
   h4 {
     color: var(--principal-purple);
+    font-size: 32px;
   }
-
+  h2 {
+    margin-top: 12px;
+  }
   .social-links {
     background-color: var(--principal-gray300);
     border-radius: 12px;
@@ -32,6 +35,7 @@
 
   p {
     width: 300px;
+    margin-top: 6px;
   }
   a {
     border: 1px solid var(--principal-gray300);
